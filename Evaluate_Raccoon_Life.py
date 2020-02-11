@@ -15,7 +15,7 @@ fin.close()
 
 # create data list
 data = [ 0 ] * (len( fileline ))
-
+#yes
 line: int
 for line in range( len( fileline[ 1:15 ] ) ):
     data[ line ] = fileline[ line ].split( "," )
